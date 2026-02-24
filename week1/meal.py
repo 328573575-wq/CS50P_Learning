@@ -21,7 +21,7 @@ if __name__ == "__main__":
 def convert(time):
     original = time                                     保留原始字符串
     time = time.replace("a.m.", "").replace("p.m.", "") 去除time里面的am和pm 
-    hours, minutes = map(int, time.split(":"))          转换数据类型
+    hours, minutes = map(int, time.split(":"))          转换数据类型 map批量应用函数
     if "p.m." in original and hours != 12:
         hours += 12
     if "a.m." in original and hours == 12:
