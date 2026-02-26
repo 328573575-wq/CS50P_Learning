@@ -11,3 +11,10 @@ def convert( s ) :
         st += c
     return st 
 main()
+
+"""
+列表推导式
+camel = input("camelCase: ").strip()
+snake = "".join(["_" + ch.lower() if ch.isupper() else ch for ch in camel])
+print(f"snake_case: {snake}")
+"""
