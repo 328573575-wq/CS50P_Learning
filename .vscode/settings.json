@@ -1,4 +1,5 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:system",
-    "accessibility.signalOptions.volume": 0
+    "accessibility.signalOptions.volume": 0,
+    "python.REPL.enableREPLSmartSend": false
 }
